@@ -99,7 +99,7 @@ const Login = () => {
             error
             id="outlined-error-helper-text"
             label="Enter name"
-            helperText="Incorrect entry."
+//             helperText=""
           /><br />
 
           <textarea className='textarea_msg' placeholder='Message'></textarea><br />

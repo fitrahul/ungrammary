@@ -24,7 +24,7 @@ const Login = () => {
   ];
   
 
-  const [currency, setCurrency] = React.useState('EUR');
+  const [currency, setCurrency] = React.useState('India');
 
   const [phone, setPhone] = useState("");
   const [phoneflag, setPhoneflag] = useState("");

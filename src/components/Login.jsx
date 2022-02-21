@@ -22,9 +22,7 @@ const Login = () => {
       label: 'China',
     },
   ];
-  const handleChange = (event) => {
-    setCurrency(event.target.value);
-  };
+  
 
   const [currency, setCurrency] = React.useState('EUR');
 
@@ -34,6 +32,9 @@ const Login = () => {
   const [count, setCount] = useState(0);
   const [mailflag, setMailflag] = useState("");
 
+  const handleChange = (event) => {
+    setCurrency(event.target.value);
+  };
   useEffect(() => {
     for (let i = 0; i < phone.length; i++) {
       // console.log(phone.charCodeAt(i));
